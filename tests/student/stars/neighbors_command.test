@@ -1,0 +1,33 @@
+INPUT
+stars data/stars/ten-star.csv
+neighbors 5 "Sol"
+neighbors 5 0 0 0
+neighbors 5 4.0 4 9.3
+neighbors 0 "Sol"
+neighbors 0 1 1 1 
+neighbors 9.3 1 1 1
+neighbors 5 "Proxima Centauri"
+OUTPUT
+Read 10 stars from data/stars/ten-star.csv
+70667
+71454
+71457
+87666
+118721
+0
+70667
+71454
+71457
+87666
+3759
+0
+118721
+87666
+70667
+ERROR:
+71454
+71457
+0
+87666
+118721
+END

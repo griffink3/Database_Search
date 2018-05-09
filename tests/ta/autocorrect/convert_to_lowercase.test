@@ -1,0 +1,12 @@
+INPUT
+corpus data/autocorrect/norton.txt
+prefix off
+whitespace off
+smart off
+led 0
+ac nORton
+OUTPUT
+corpus data/autocorrect/norton.txt added
+ac nORton
+norton
+END

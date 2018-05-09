@@ -1,0 +1,13 @@
+INPUT
+stars data/stars/one-star.csv
+stars data/stars/ten-star.csv
+stars data/stars/not-a-file.csv
+stars data/stars/incorrect-format.csv
+stars data/stars/stardata.csv
+OUTPUT
+Read 1 stars from data/stars/one-star.csv
+Read 9 stars from data/stars/ten-star.csv
+ERROR:
+ERROR:
+Read 119607 stars from data/stars/stardata.csv
+END

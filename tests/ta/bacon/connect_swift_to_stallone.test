@@ -1,0 +1,11 @@
+INPUT
+mdb data/bacon/smallBacon.sqlite3
+connect "Taylor Swift" "Sylvester Stallone"
+OUTPUT
+db set to data/bacon/smallBacon.sqlite3
+Taylor Swift -> Shirley McLaine : Valentine's Day
+Shirley McLaine -> Matthew McConaughey : Bernie
+Matthew McConaughey -> Mini Anden : Tropic Thunder
+Mini Anden -> Amy Stiller : Tropic Thunder
+Amy Stiller -> Sylvester Stallone : Lovers and Other Strangers
+END

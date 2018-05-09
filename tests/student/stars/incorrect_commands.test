@@ -1,0 +1,7 @@
+INPUT
+incorrectcommand
+nothing 8 9 0 9
+OUTPUT
+ERROR: 
+ERROR:
+END

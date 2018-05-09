@@ -1,0 +1,15 @@
+INPUT
+corpus data/autocorrect/norton.txt
+prefix on
+whitespace off
+smart off
+led 1
+ac nortoa
+ac nor
+OUTPUT
+corpus data/autocorrect/norton.txt added
+ac nortoa
+norton
+ac nor
+norton
+END

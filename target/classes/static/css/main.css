@@ -1,0 +1,19 @@
+input[type="number"] {
+  width: 3em;
+} h1 {
+  text-align: center;
+  color: #B0E0E6;
+} body {
+  background-image: url("stars.jpg");
+} p {
+  text-align: center;
+  color: #00FF7F;
+} form {
+  text-align: center;
+} p2 {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+} p1 {
+  color: khaki;
+}

@@ -1,0 +1,51 @@
+input[type="number"] {
+  width: 3em;
+} h1 {
+  text-align: center;
+  color: #000000;
+} body {
+  background-image: url("soup.jpg");
+} p {
+  text-align: center;
+  color: #116a9e;
+} form {
+  text-align: center;
+} p2 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+} p1 {
+  color: #4a0d91;
+} p3 {
+  text-align: right;
+  color: black;
+  font-size: 20px;
+} .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+} li {
+  list-style-type: none;
+} .container{
+  width:80%;
+  margin:0 auto;
+} .left {
+  width:50%;
+  display:inline-block;
+  vertical-align: top;
+  border-right: 2px black solid;
+  padding-right:20px;
+} .right {
+  width:50%;
+  position: absolute;
+  float: right;
+  display:inline-block;
+  vertical-align: top;
+  padding-left:20px;
+} .bottom {
+  vertical-align: bottom;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 175px;
+  position: absolute;
+  float: bottom;
+}

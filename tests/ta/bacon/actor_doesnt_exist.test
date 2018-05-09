@@ -1,0 +1,7 @@
+INPUT
+mdb data/bacon/smallBacon.sqlite3
+connect "we don't" "Willow Smith"
+OUTPUT
+db set to data/bacon/smallBacon.sqlite3
+ERROR:
+END

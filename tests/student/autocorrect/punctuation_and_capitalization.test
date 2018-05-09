@@ -1,0 +1,23 @@
+INPUT
+corpus data/autocorrect/bigram_frequencies.txt
+whitespace on
+led 6
+prefix on
+ac The !d
+smart on
+ac The. d
+OUTPUT
+corpus data/autocorrect/bigram_frequencies.txt added
+ac The !d
+the dog
+the milk
+the barber
+the drink
+the phone
+ac The. d
+the. the
+the. dog
+the. milk
+the. barber
+the. drink
+END

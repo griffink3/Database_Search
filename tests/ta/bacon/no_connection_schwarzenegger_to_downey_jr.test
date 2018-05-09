@@ -1,0 +1,7 @@
+INPUT
+mdb data/bacon/smallBacon.sqlite3
+connect "Arnold Schwarzenegger" "Robert Downey Jr."
+OUTPUT
+db set to data/bacon/smallBacon.sqlite3
+Arnold Schwarzenegger -/- Robert Downey Jr.
+END

@@ -1,0 +1,10 @@
+INPUT
+corpus data/autocorrect/dictionary.txt
+whitespace on
+ac watermelon
+OUTPUT
+corpus data/autocorrect/dictionary.txt added
+ac watermelon
+watermelon
+water melon
+END

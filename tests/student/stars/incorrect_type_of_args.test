@@ -1,0 +1,29 @@
+INPUT
+stars not/a/valid/file
+stars data/stars/ten-star.csv
+neighbors 9 "not a star"
+neighbors 1 "Sol
+neighbors 1 Sol"
+neighbors 1 Sol
+neighbors 1 1
+neighbors 9.8 "Sol"
+radius 1 "Sol
+radius 1 Sol"
+radius 1 Sol
+neighbors 1 word word word
+radius 1 word word word
+OUTPUT
+ERROR:
+Read 10 stars from data/stars/ten-star.csv
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+END

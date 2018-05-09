@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="22" tokens="206">
+      <file line="147"
+            path="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/bacon/BaconObject.java"/>
+      <file line="211"
+            path="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/bacon/BaconObject.java"/>
+      <codefragment><![CDATA[    List<String> output = new ArrayList<String>();
+    if (conn == null) {
+      System.out.println("ERROR: No database has been uploaded");
+      return output;
+    }
+    String id1 = queryTable(actor1, "id", "name", "actor");
+    String id2 = queryTable(actor2, "id", "name", "actor");
+    if (id1.equals("") || id2.equals("")) {
+      System.out.println("ERROR: Invalid actor names");
+      return output;
+    }
+    Dijkstra<String> d = new Dijkstra<String>(graph);
+    Vertex<String> v1 = graph.getVert(idToNum.get(id1));
+    Vertex<String> v2 = graph.getVert(idToNum.get(id2));
+    Map<Vertex<String>, Vertex<String>> prevs = d.findShortestPath(v1, v2);
+    graph = d.getGraph();
+    cacheActorName = Actor.actorCache();
+    cacheFilmCount = Actor.filmCountCache();
+    Vertex<String> curr = v2;
+    Vertex<String> prev = prevs.get(curr);
+    while (prev != null) {
+      Edge<String> e = graph.connectingEdge(prev, curr);]]></codefragment>
+   </duplication>
+   <duplication lines="18" tokens="153">
+      <file line="372"
+            path="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/main/Gui.java"/>
+      <file line="400"
+            path="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/main/Gui.java"/>
+      <codefragment><![CDATA[  public class GetActorHandler implements TemplateViewRoute {
+    @Override
+    public ModelAndView handle(Request req, Response res) {
+      QueryParamsMap qm = req.queryMap();
+      String name = req.params(":name");
+      StringBuffer s = new StringBuffer(name);
+      for (int i = 0; i < s.length(); i++) {
+        if (s.charAt(i) == '-') {
+          s.setCharAt(i, '\'');
+        } else if (s.charAt(i) == '_') {
+          s.setCharAt(i, ' ');
+        } else if (s.charAt(i) == '=') {
+          s.setCharAt(i, '\"');
+        } else if (s.charAt(i) == '+') {
+          s.setCharAt(i, '.');
+        }
+      }
+      name = s.toString();]]></codefragment>
+   </duplication>
+   <duplication lines="14" tokens="122">
+      <file line="157"
+            path="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/Interpreter.java"/>
+      <file line="212"
+            path="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/Interpreter.java"/>
+      <codefragment><![CDATA[          return doNeighborsCommand(numNeighbors,
+              commands.get(2).substring(1, commands.get(2).length() - 1),
+              starsOb);
+        }
+      } else {
+        if (!StarsObject.checkDouble(commands.get(2))
+            || !StarsObject.checkDouble(commands.get(3))
+            || !StarsObject.checkDouble(commands.get(4))) {
+          return empty;
+        } else {
+          double x = StarsObject.makeDouble(commands.get(2));
+          double y = StarsObject.makeDouble(commands.get(3));
+          double z = StarsObject.makeDouble(commands.get(4));
+          return doNeighborsCommand(numNeighbors, x, y, z, starsOb);]]></codefragment>
+   </duplication>
+</pmd-cpd>

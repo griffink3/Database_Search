@@ -1,0 +1,16 @@
+INPUT
+corpus data/autocorrect/great_expectations.txt
+prefix on
+whitespace on
+smart off
+led 0
+ac the
+OUTPUT
+corpus data/autocorrect/great_expectations.txt added
+ac the
+the
+there
+t he
+then
+they
+END

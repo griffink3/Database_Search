@@ -1,0 +1,16 @@
+INPUT
+stars data/stars/duplicate-star-name.csv
+neighbors 3 "Sol"
+radius 3 "Sol"
+OUTPUT
+Read 11 stars from data/stars/duplicate-star-name.csv
+0
+70667
+71454
+0
+70667
+71454
+71457
+87666
+118721
+END

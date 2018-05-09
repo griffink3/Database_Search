@@ -1,0 +1,7 @@
+INPUT
+mdb data/bacon/smallBacon.sqlite3
+connect "Mini Anden" "Telis Stallone"
+OUTPUT
+db set to data/bacon/smallBacon.sqlite3
+Mini Anden -/- Telis Stallone
+END

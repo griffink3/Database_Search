@@ -1,0 +1,17 @@
+INPUT
+corpus data/autocorrect/dictionary.txt another
+corpus data/autocorrect/dictionary.txt
+corpus data/autocorrect/dictionary.txt
+corpus data/autocorrect/not-a-file.txt
+corpus data/autocorrect/sherlock.txt
+corpus
+corpus data/autocorrect/norton.txt
+OUTPUT
+ERROR: 
+corpus data/autocorrect/dictionary.txt added
+ERROR:
+ERROR:
+corpus data/autocorrect/sherlock.txt added
+ERROR:
+corpus data/autocorrect/norton.txt added
+END

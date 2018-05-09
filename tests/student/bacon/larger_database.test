@@ -1,0 +1,10 @@
+INPUT
+mdb data/bacon/bacon.sqlite3
+connect "Arnold Schwarzenegger" "Robert Downey Jr."
+OUTPUT
+db set to data/bacon/bacon.sqlite3
+Arnold Schwarzenegger -> Steve Coogan : Around the World in 80 Days
+Steve Coogan -> Clark DeVol : Tropic Thunder
+Clark DeVol -> DJ Rivers : Tropic Thunder
+DJ Rivers -> Robert Downey Jr. : Tropic Thunder
+END

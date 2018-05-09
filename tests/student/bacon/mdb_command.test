@@ -1,0 +1,13 @@
+INPUT
+mdb data/bacon/bacon.sqlite3 another
+mdb data/bacon/bacon.sqlite3
+mdb data/bacon/newDatabase.sqlite3
+mdb 
+mdb data/bacon/smallbacon.sqlite3
+OUTPUT
+ERROR: 
+db set to data/bacon/bacon.sqlite3
+db set to data/bacon/newDatabase.sqlite3
+ERROR:
+db set to data/bacon/smallbacon.sqlite3
+END

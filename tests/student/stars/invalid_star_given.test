@@ -1,0 +1,9 @@
+INPUT
+stars data/stars/ten-diff-star.csv
+radius 10.0 "invalid"
+neighbors 3 "sol"
+OUTPUT
+Read 10 stars from data/stars/ten-diff-star.csv
+ERROR:
+ERROR:
+END

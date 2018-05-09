@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.3.5" timestamp="2018-03-10T13:14:26.158">
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/Reader.java">
+<violation beginline="60" endline="60" begincolumn="11" endcolumn="23" rule="ReturnFromFinallyBlock" ruleset="Basic" package="edu.brown.cs.gk16" class="Reader" method="readFile" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/basic.html#ReturnFromFinallyBlock" priority="3">
+Avoid returning from a finally block
+</violation>
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/TrieNode.java">
+<violation beginline="54" endline="54" begincolumn="5" endcolumn="11" rule="UnnecessaryReturn" ruleset="Unnecessary" package="edu.brown.cs.gk16" class="TrieNode" method="addChild" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unnecessary.html#UnnecessaryReturn" priority="3">
+Avoid unnecessary return statements
+</violation>
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/bacon/BaconObject.java">
+<violation beginline="129" endline="129" begincolumn="5" endcolumn="11" rule="UnnecessaryReturn" ruleset="Unnecessary" package="edu.brown.cs.gk16.bacon" class="BaconObject" method="addAllVertices" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unnecessary.html#UnnecessaryReturn" priority="3">
+Avoid unnecessary return statements
+</violation>
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/main/Gui.java">
+<violation beginline="252" endline="252" begincolumn="22" endcolumn="23" rule="UnusedLocalVariable" ruleset="Unused Code" package="edu.brown.cs.gk16.main" class="Gui$ToggleInfoHandler" method="handle" variable="qm" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'qm'.
+</violation>
+<violation beginline="375" endline="375" begincolumn="22" endcolumn="23" rule="UnusedLocalVariable" ruleset="Unused Code" package="edu.brown.cs.gk16.main" class="Gui$GetActorHandler" method="handle" variable="qm" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'qm'.
+</violation>
+<violation beginline="403" endline="403" begincolumn="22" endcolumn="23" rule="UnusedLocalVariable" ruleset="Unused Code" package="edu.brown.cs.gk16.main" class="Gui$GetFilmHandler" method="handle" variable="qm" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'qm'.
+</violation>
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/main/Main.java">
+<violation beginline="35" endline="35" begincolumn="29" endcolumn="32" rule="UnusedPrivateField" ruleset="Unused Code" package="edu.brown.cs.gk16.main" class="Main" variable="GSON" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'GSON'.
+</violation>
+<violation beginline="37" endline="37" begincolumn="26" endcolumn="36" rule="UnusedPrivateField" ruleset="Unused Code" package="edu.brown.cs.gk16.main" class="Main" variable="starsLoaded" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'starsLoaded'.
+</violation>
+<violation beginline="38" endline="38" begincolumn="26" endcolumn="37" rule="UnusedPrivateField" ruleset="Unused Code" package="edu.brown.cs.gk16.main" class="Main" variable="corpusLoaded" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'corpusLoaded'.
+</violation>
+<violation beginline="39" endline="39" begincolumn="30" endcolumn="34" rule="UnusedPrivateField" ruleset="Unused Code" package="edu.brown.cs.gk16.main" class="Main" variable="stars" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'stars'.
+</violation>
+<violation beginline="40" endline="40" begincolumn="27" endcolumn="28" rule="UnusedPrivateField" ruleset="Unused Code" package="edu.brown.cs.gk16.main" class="Main" variable="ac" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'ac'.
+</violation>
+<violation beginline="41" endline="41" begincolumn="30" endcolumn="34" rule="UnusedPrivateField" ruleset="Unused Code" package="edu.brown.cs.gk16.main" class="Main" variable="bacon" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'bacon'.
+</violation>
+<violation beginline="42" endline="42" begincolumn="25" endcolumn="30" rule="UnusedPrivateField" ruleset="Unused Code" package="edu.brown.cs.gk16.main" class="Main" variable="actor1" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'actor1'.
+</violation>
+<violation beginline="43" endline="43" begincolumn="25" endcolumn="30" rule="UnusedPrivateField" ruleset="Unused Code" package="edu.brown.cs.gk16.main" class="Main" variable="actor2" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'actor2'.
+</violation>
+<violation beginline="44" endline="44" begincolumn="26" endcolumn="38" rule="UnusedPrivateField" ruleset="Unused Code" package="edu.brown.cs.gk16.main" class="Main" variable="connectCalled" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'connectCalled'.
+</violation>
+<violation beginline="74" endline="74" begincolumn="17" endcolumn="27" rule="UnusedLocalVariable" ruleset="Unused Code" package="edu.brown.cs.gk16.main" class="Main" method="run" variable="interpreter" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'interpreter'.
+</violation>
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/stars/StarsObject.java">
+<violation beginline="109" endline="109" begincolumn="11" endcolumn="20" rule="ReturnFromFinallyBlock" ruleset="Basic" package="edu.brown.cs.gk16.stars" class="StarsObject" method="addStars" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/basic.html#ReturnFromFinallyBlock" priority="3">
+Avoid returning from a finally block
+</violation>
+</file>
+</pmd>

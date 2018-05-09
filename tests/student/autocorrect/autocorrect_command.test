@@ -1,0 +1,31 @@
+INPUT
+corpus data/autocorrect/bigram_frequencies.txt
+ac the d
+prefix on
+led 6
+whitespace on
+ac the d
+ac the phone
+ac mi
+OUTPUT
+corpus data/autocorrect/bigram_frequencies.txt added
+ac the d
+ac the d
+the dog
+the milk
+the barber
+the drink
+the phone
+ac the phone
+the phone
+the dog
+the milk
+the barber
+the drink
+ac mi
+the
+dog
+milk
+barber
+drink
+END

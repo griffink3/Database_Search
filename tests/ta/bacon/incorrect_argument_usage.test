@@ -1,0 +1,5 @@
+INPUT
+connect "the rick man" "the morty dude"
+OUTPUT
+ERROR:
+END

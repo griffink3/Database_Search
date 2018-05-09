@@ -1,0 +1,21 @@
+INPUT
+mdb data/bacon/bacon.sqlite3
+connect "Rob Watson" "Jerry Chamberlain
+connect "Rob Watson "Jerry Chamberlain"
+connect "Rob Watson" Jerry Chamberlain
+connect Rob Watson "Jerry Chamberlain"
+connect Rob Watson Jerry Chamberlain
+connect
+connect "Rob Watson"
+connect "Rob Watson" "Jerry Chamberlain" "Roman Tam"
+OUTPUT
+db set to data/bacon/bacon.sqlite3
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+END

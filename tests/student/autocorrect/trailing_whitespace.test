@@ -1,0 +1,9 @@
+INPUT
+corpus data/autocorrect/bigram_frequencies.txt
+whitespace on
+led 6
+prefix on
+ac the d 
+OUTPUT
+corpus data/autocorrect/bigram_frequencies.txt added
+END

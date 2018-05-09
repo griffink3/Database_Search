@@ -1,0 +1,10 @@
+INPUT
+mdb data/bacon/smallBacon.sqlite3
+connect "Arnold Schwarzenegger" "Willow Smith"
+OUTPUT
+db set to data/bacon/smallBacon.sqlite3
+Arnold Schwarzenegger -> Steve Coogan : Around the World in 80 Days
+Steve Coogan -> Cate Blanchett : Hot Fuzz
+Cate Blanchett -> Betty White : Ponyo
+Betty White -> Willow Smith : The Lorax
+END

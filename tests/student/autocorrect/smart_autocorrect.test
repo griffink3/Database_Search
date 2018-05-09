@@ -1,0 +1,32 @@
+INPUT
+n 4
+corpus data/autocorrect/ngram_frequencies.txt
+led 5
+whitespace on
+prefix on
+ac I would love t
+smart on
+ac I would love t
+smart off
+ac I would love t
+OUTPUT
+corpus data/autocorrect/ngram_frequencies.txt added
+ac I would love t
+i would love that
+i would love pie
+i would love to
+i would love food
+i would love love
+ac I would love t
+i would love to
+i would love that
+i would love pie
+i would love food
+i would love love
+ac I would love t
+i would love that
+i would love pie
+i would love to
+i would love food
+i would love love
+END

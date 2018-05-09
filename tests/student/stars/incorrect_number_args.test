@@ -1,0 +1,15 @@
+INPUT
+stars data/stars/ten-star.csv 1
+stars
+neighbors 5 
+neighbors 3 8 9
+radius 7 
+radius 9 10 10 10 10 
+OUTPUT
+ERROR: 
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+END

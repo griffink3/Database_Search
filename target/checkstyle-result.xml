@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/TrieNode.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/NodeObject.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/Vertex.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/autocorrect/AcObject.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/stars/Star.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/stars/StarsObject.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/Interpreter.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/Reader.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/EdgeSetGraph.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/Actor.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/KdNode.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/Dijkstra.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/KdTree.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/main/Main.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/main/Gui.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/bacon/BaconObject.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/Edge.java">
+</file>
+<file name="/Users/user1/Desktop/cs32/projects-griffink3/src/main/java/edu/brown/cs/gk16/Trie.java">
+</file>
+</checkstyle>

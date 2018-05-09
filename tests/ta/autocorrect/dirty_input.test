@@ -1,0 +1,16 @@
+INPUT
+corpus data/autocorrect/sherlock.txt
+prefix on
+whitespace on
+smart off
+led 0
+ac ThiS Isn'!@#t good
+OUTPUT
+corpus data/autocorrect/sherlock.txt added
+ac ThiS Isn'!@#t good
+this isn t good
+this isn t goodness
+this isn t goodge
+this isn t goodwill
+this isn t goodwins
+END

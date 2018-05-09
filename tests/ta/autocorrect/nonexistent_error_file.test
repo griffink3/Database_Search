@@ -1,0 +1,7 @@
+INPUT
+corpus data/autocorrect/error.txt
+ac hello
+OUTPUT
+ERROR:
+ac hello
+END

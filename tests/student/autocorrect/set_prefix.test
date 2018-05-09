@@ -1,0 +1,13 @@
+INPUT
+corpus data/autocorrect/dictionary.txt
+prefix on
+ac aa
+OUTPUT
+corpus data/autocorrect/dictionary.txt added
+ac aa
+aa
+aah
+aahed
+aahing
+aahs
+END

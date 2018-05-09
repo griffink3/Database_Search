@@ -1,0 +1,12 @@
+INPUT
+corpus data/autocorrect/split.txt
+prefix off
+whitespace on
+smart off
+led 0
+ac splitwords
+OUTPUT
+corpus data/autocorrect/split.txt added
+ac splitwords
+split words
+END

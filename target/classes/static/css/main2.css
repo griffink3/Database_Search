@@ -1,0 +1,107 @@
+input[type="number"] {
+  width: 3em;
+} h1 {
+  text-align: center;
+  text-shadow: 3px 2px gray;
+  color: #000000;
+} p {
+  text-align: center;
+  color: #800080;
+} body {
+  background-color: #FFB6C1;
+} form {
+  text-align: center;
+  display:block;
+} p2 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+} p1 {
+  color: 	#800080;
+} p3 {
+  text-align: right;
+  color: black;
+  font-size: 20px;
+} p4 {
+  text-align: right;
+  color: black;
+  font-size: 25px;
+} .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+} .container {
+  width:80%;
+  margin:0 auto;
+} .middle {
+  padding-top: 25px;
+  border-top: 5px black solid;
+  width: 82.5%;
+  position: absolute;
+  text-align: center;
+} .verybottom {
+  vertical-align: bottom;
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 200px;
+  position: relative;
+  top: 300px;
+  display: inline-block;
+} .leftinput {
+  padding-left: 240px;
+  float: left;
+} .rightinput {
+  padding-right: 255px;
+  float: right;
+} .connect {
+  position: absolute;
+  float: center;
+  width: 97.5%;
+  text-align: center;
+} .connectbutton {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #DA70D6;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+} .connectbutton:hover {
+  background-color: #800080
+} .connectbutton:active {
+  background-color: #800080;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} .leftsugg {
+  padding-left: 240 px;
+  padding-top: 100 px;
+  float: left;
+  width: 15%;
+  position: relative;
+  top: 29px;
+  left: 200px;
+} .rightsugg {
+  padding-right: 300 px;
+  padding-top: 100 px;
+  float: right;
+  width: 15%;
+  position: relative;
+  top: 29px;
+  right: 360px;
+} .connectPath {
+  color: black;
+  font-size: 30px;
+  list-style-type: none;
+} .films {
+  color: black;
+  font-size: 30px;
+  list-style-type: none;
+} .actors {
+  color: black;
+  font-size: 30px;
+  list-style-type: none;
+}

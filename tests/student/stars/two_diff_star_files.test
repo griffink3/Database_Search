@@ -1,0 +1,24 @@
+INPUT
+stars data/stars/ten-star.csv
+neighbors 5 30 30 30
+radius 30.0 20.0 20.0 20.0
+stars data/stars/ten-diff-star.csv
+neighbors 5 30 30 30
+radius 30.0 20.0 20.0 20.0
+OUTPUT
+Read 10 stars from data/stars/ten-star.csv
+3759
+0
+118721
+87666
+70667
+3759
+Read 10 stars from data/stars/ten-diff-star.csv
+58
+54
+3759
+0
+118721
+58
+3759
+END

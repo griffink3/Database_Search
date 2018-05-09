@@ -1,0 +1,31 @@
+INPUT
+stars data/stars/ten-star.csv
+radius 5 "Sol"
+radius 5.0 "Sol"
+radius 5.00 "Sol"
+radius 23 15.7 15 3.8
+radius 1.0 1.0 0 0
+OUTPUT
+Read 10 stars from data/stars/ten-star.csv
+70667
+71454
+71457
+87666
+118721
+70667
+71454
+71457
+87666
+118721
+70667
+71454
+71457
+87666
+118721
+3759
+0
+70667
+71454
+71457
+0
+END

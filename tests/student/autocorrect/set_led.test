@@ -1,0 +1,12 @@
+INPUT
+corpus data/autocorrect/led_distances.txt
+led 2
+ac ba
+OUTPUT
+corpus data/autocorrect/led_distances.txt added
+ac ba
+ab
+back
+bad
+eat
+END

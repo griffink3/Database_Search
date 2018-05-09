@@ -1,0 +1,11 @@
+INPUT
+prefix
+led
+whitespace
+smart
+OUTPUT
+prefix off
+led 0
+whitespace off
+smart off
+END

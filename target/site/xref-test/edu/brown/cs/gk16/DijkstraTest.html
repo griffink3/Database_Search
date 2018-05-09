@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>DijkstraTest xref</title>
+<link type="text/css" rel="stylesheet" href="../../../../stylesheet.css" />
+</head>
+<body>
+<div id="overview"><a href="../../../../../testapidocs/edu/brown/cs/gk16/DijkstraTest.html">View Javadoc</a></div><pre>
+<a class="jxr_linenumber" name="L1" href="#L1">1</a>   <strong class="jxr_keyword">package</strong> edu.brown.cs.gk16;
+<a class="jxr_linenumber" name="L2" href="#L2">2</a>   
+<a class="jxr_linenumber" name="L3" href="#L3">3</a>   <strong class="jxr_keyword">import</strong> java.util.List;
+<a class="jxr_linenumber" name="L4" href="#L4">4</a>   
+<a class="jxr_linenumber" name="L5" href="#L5">5</a>   <strong class="jxr_keyword">import</strong> org.junit.Test;
+<a class="jxr_linenumber" name="L6" href="#L6">6</a>   
+<a class="jxr_linenumber" name="L7" href="#L7">7</a>   <strong class="jxr_keyword">import</strong> edu.brown.cs.gk16.bacon.BaconObject;
+<a class="jxr_linenumber" name="L8" href="#L8">8</a>   
+<a class="jxr_linenumber" name="L9" href="#L9">9</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../edu/brown/cs/gk16/DijkstraTest.html">DijkstraTest</a> {
+<a class="jxr_linenumber" name="L10" href="#L10">10</a>  
+<a class="jxr_linenumber" name="L11" href="#L11">11</a>    <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L12" href="#L12">12</a>  <em class="jxr_javadoccomment">   * Testing the djikstra's algorithm through the bacon object's connect</em>
+<a class="jxr_linenumber" name="L13" href="#L13">13</a>  <em class="jxr_javadoccomment">   * command.</em>
+<a class="jxr_linenumber" name="L14" href="#L14">14</a>  <em class="jxr_javadoccomment">   */</em>
+<a class="jxr_linenumber" name="L15" href="#L15">15</a>  
+<a class="jxr_linenumber" name="L16" href="#L16">16</a>    @Test
+<a class="jxr_linenumber" name="L17" href="#L17">17</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testFindShortestPath() {
+<a class="jxr_linenumber" name="L18" href="#L18">18</a>      <em class="jxr_comment">// Creating new bacon object and loading database</em>
+<a class="jxr_linenumber" name="L19" href="#L19">19</a>      BaconObject bacon = <strong class="jxr_keyword">new</strong> BaconObject();
+<a class="jxr_linenumber" name="L20" href="#L20">20</a>      bacon.addDb(<span class="jxr_string">"data/bacon/smallbacon.sqlite3"</span>);
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>      EdgeSetGraph&lt;String&gt; graph = bacon.getGraph();
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>      String actor1 = <span class="jxr_string">"Will Smith"</span>;
+<a class="jxr_linenumber" name="L23" href="#L23">23</a>      String actor2 = <span class="jxr_string">"Stephen Root"</span>;
+<a class="jxr_linenumber" name="L24" href="#L24">24</a>      List&lt;String&gt; output = bacon.connect(actor1, actor2);
+<a class="jxr_linenumber" name="L25" href="#L25">25</a>      assert (output.size() == 1);
+<a class="jxr_linenumber" name="L26" href="#L26">26</a>      assert (output.get(0).equals(<span class="jxr_string">"Will Smith -&gt; Stephen Root : Jersey Girl"</span>));
+<a class="jxr_linenumber" name="L27" href="#L27">27</a>    }
+<a class="jxr_linenumber" name="L28" href="#L28">28</a>  
+<a class="jxr_linenumber" name="L29" href="#L29">29</a>    @Test
+<a class="jxr_linenumber" name="L30" href="#L30">30</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testFindShortestPathLonger() {
+<a class="jxr_linenumber" name="L31" href="#L31">31</a>      <em class="jxr_comment">// Creating new bacon object and loading database</em>
+<a class="jxr_linenumber" name="L32" href="#L32">32</a>      BaconObject bacon = <strong class="jxr_keyword">new</strong> BaconObject();
+<a class="jxr_linenumber" name="L33" href="#L33">33</a>      bacon.addDb(<span class="jxr_string">"data/bacon/smallbacon.sqlite3"</span>);
+<a class="jxr_linenumber" name="L34" href="#L34">34</a>      String actor1 = <span class="jxr_string">"Arnold Schwarzenegger"</span>;
+<a class="jxr_linenumber" name="L35" href="#L35">35</a>      String actor2 = <span class="jxr_string">"Willow Smith"</span>;
+<a class="jxr_linenumber" name="L36" href="#L36">36</a>      List&lt;String&gt; output = bacon.connect(actor1, actor2);
+<a class="jxr_linenumber" name="L37" href="#L37">37</a>      assert (output.get(0).equals(
+<a class="jxr_linenumber" name="L38" href="#L38">38</a>          <span class="jxr_string">"Arnold Schwarzenegger -&gt; Steve Coogan : Around the World in 80 Days"</span>));
+<a class="jxr_linenumber" name="L39" href="#L39">39</a>      assert (output.get(1).equals(<span class="jxr_string">"Steve Coogan -&gt; Cate Blanchett : Hot Fuzz"</span>));
+<a class="jxr_linenumber" name="L40" href="#L40">40</a>      assert (output.get(2).equals(<span class="jxr_string">"Cate Blanchett -&gt; Betty White : Ponyo"</span>));
+<a class="jxr_linenumber" name="L41" href="#L41">41</a>      assert (output.get(3).equals(<span class="jxr_string">"Betty White -&gt; Willow Smith : The Lorax"</span>));
+<a class="jxr_linenumber" name="L42" href="#L42">42</a>    }
+<a class="jxr_linenumber" name="L43" href="#L43">43</a>  
+<a class="jxr_linenumber" name="L44" href="#L44">44</a>    @Test
+<a class="jxr_linenumber" name="L45" href="#L45">45</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> testFindShortestPathNone() {
+<a class="jxr_linenumber" name="L46" href="#L46">46</a>      <em class="jxr_comment">// Creating new bacon object and loading database</em>
+<a class="jxr_linenumber" name="L47" href="#L47">47</a>      BaconObject bacon = <strong class="jxr_keyword">new</strong> BaconObject();
+<a class="jxr_linenumber" name="L48" href="#L48">48</a>      bacon.addDb(<span class="jxr_string">"data/bacon/smallbacon.sqlite3"</span>);
+<a class="jxr_linenumber" name="L49" href="#L49">49</a>      String actor1 = <span class="jxr_string">"Jeff Bridges"</span>; <em class="jxr_comment">// The actor id of Jeff Bridges</em>
+<a class="jxr_linenumber" name="L50" href="#L50">50</a>      String actor2 = <span class="jxr_string">"John Travolta"</span>; <em class="jxr_comment">// The actor id of John Travolta</em>
+<a class="jxr_linenumber" name="L51" href="#L51">51</a>      List&lt;String&gt; output = bacon.connect(actor1, actor2);
+<a class="jxr_linenumber" name="L52" href="#L52">52</a>      assert (output.size() == 1);
+<a class="jxr_linenumber" name="L53" href="#L53">53</a>      assert (output.get(0).equals(<span class="jxr_string">"Jeff Bridges -/- John Travolta"</span>));
+<a class="jxr_linenumber" name="L54" href="#L54">54</a>    }
+<a class="jxr_linenumber" name="L55" href="#L55">55</a>  
+<a class="jxr_linenumber" name="L56" href="#L56">56</a>  }
+</pre>
+<hr/>
+<div id="footer">Copyright &#169; 2018. All rights reserved.</div>
+</body>
+</html>
